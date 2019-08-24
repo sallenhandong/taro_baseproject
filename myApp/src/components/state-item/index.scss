@@ -1,0 +1,27 @@
+.state_item_module {
+    width: 187.5rpx;
+    text-align: center;
+    margin-top: 80rpx;
+    .state_item_module_item {
+        font-size: 24rpx;
+        color: #7C7C7C;
+        position: relative;
+        .title {
+            position: absolute;
+            right: 30rpx;
+            top: -10rpx;
+            background-color: #D5D5D5;
+            width: 40rpx;
+            height: 40rpx;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+    }
+   .state_icon {
+       width: 60rpx;
+       height: 60rpx;
+   }
+}

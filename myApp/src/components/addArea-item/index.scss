@@ -1,0 +1,16 @@
+.addArea_item {
+    width: 670rpx;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rpx;
+    background: rgba(154,189,176,0.10);
+    border: 2rpx dotted #56C59B;
+    border-radius: 10rpx;
+    height: 103rpx;
+    margin-top: 40rpx;
+    .addIcon {
+        width: 30rpx;
+        height: 29rpx;
+    }
+
+}

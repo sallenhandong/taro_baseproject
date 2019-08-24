@@ -1,0 +1,48 @@
+.swipe-item {
+    width: 100vw;
+    overflow: hidden;
+    line-height: 120rpx;
+    height: 120rpx;
+    text-align: center;
+    border-bottom: 2rpx solid #F3F3F3;
+    &-wrap {
+      width: calc(100vw + 200rpx);
+      height: 100%;
+      position: relative;
+    }
+    &-title {
+      font-size: 30rpx;
+      color: #9B9B9B;
+    }
+    &-left {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+    }
+    &-userType {
+      font-size: 26rpx;
+      margin-left: auto;
+      margin-right: 20rpx;
+      color: #dcdc;
+    }
+    &-dot {
+        width: 30rpx;
+        height: 30rpx;
+        background-color: green;
+        border-radius: 50%;
+        margin-left: 20rpx;
+        margin-right: 20rpx;
+    }
+    &-right {
+      width: 200rpx;
+      height: 100%;
+      background: red;
+      color: white;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      top: 0;
+    }
+  }

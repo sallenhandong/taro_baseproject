@@ -1,0 +1,59 @@
+.picker_modal_wrapper_show {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transition:all .4s ease-in-out 0;
+    overflow: hidden;
+    .picker_modal_content {
+        background: rgba(255,255,255,1);
+        bottom: 0;
+        width: 750rpx;
+        height: 480rpx;
+        position: fixed;
+        .picker-header {
+            display: flex;
+            align-items: center;
+            font-size: 28rpx;
+            height: 80rpx;
+            justify-content: space-between;
+            border-bottom: 2rpx solid #F0F0F0;
+            position: relative;
+            .cancelTitle {
+                color: #4a4a4a;
+                margin-left: 20rpx;
+            }
+            .title {
+                color: #4A4A4A;
+                width: 100%;
+                text-align: center;
+                
+            }
+            .confirmTitle {
+                color: #19B1B9;
+                right: 20rpx;
+                position: absolute;
+            }
+        }
+    }
+    .content {
+        height: 30rpx;
+        text-align: center;
+    }
+    .myPicker {
+        height: 400rpx;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .content_container {
+        display: flex;
+        width: 750rpx;
+    }
+}
+.picker_modal_wrapper_hidden {
+    display: none;
+    max-height: 0;
+}

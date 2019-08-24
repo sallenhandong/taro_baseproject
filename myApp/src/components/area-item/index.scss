@@ -1,0 +1,87 @@
+.area-item {
+    width: 750rpx;
+    overflow: hidden;
+    text-align: center;
+    .addArea_item {
+      width: 670rpx;
+      display: flex;
+      flex-direction: column;
+      margin-left: 40rpx;
+      background: rgba(154,189,176,0.10);
+      border: 2rpx dashed #56C59B;
+      border-radius: 10rpx;
+      height: 103rpx;
+      margin-top: 40rpx;
+      align-items: center;
+      justify-content: center;
+      font-size: 30rpx;
+      color: #8FB4AB;
+      .addIcon {
+          width: 30rpx;
+          height: 29rpx;
+      }
+  
+  }
+    &-wrap {
+      width: calc(100vw + 200rpx);
+      height: 100%;
+      position: relative;
+    }
+  
+    &-left {
+      width: 670rpx;
+      display: flex;
+      flex-direction: column;
+      margin-left: 40rpx;
+      background: rgba(154,189,176,0.10);
+      border: 2rpx solid #56C59B;
+      border-radius: 10rpx;
+      height: 103rpx;
+      margin-top: 40rpx;
+      align-items: center;
+    }
+    &-areaName {
+        margin-left: 20rpx;
+        text-align: left;
+        width: 500rpx;
+    }
+    &-right {
+      width: 200rpx;
+      height: 100%;
+      background: red;
+      color: white;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      top: 0;
+    }
+    &-arrowClass {
+      width: 48rpx;
+      height: 48rpx;
+    }
+    &-contentContainer {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      &-arrowContainer {
+        display: flex;
+         align-items: center;
+         margin-left: auto;
+         margin-right: 20rpx;
+         margin-top: 20rpx;
+      }
+    }
+    .deleteIcon {
+      width: 50rpx;
+      height: 50rpx;
+    }
+    .deleteView {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  }

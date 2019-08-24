@@ -1,0 +1,53 @@
+.login {
+    position: fixed;
+    width: 750rpx;
+    .loginBgImage {
+        width: 100%;
+        height: 398rpx;
+        position: absolute;
+    }
+}
+.login_loginBtn {
+    top: 530rpx;
+    background-color:  #19B1B9;
+    height: 70rpx;
+    width: 600rpx;
+    margin-left: 75rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 35rpx;
+    color: white;
+    font-size: 30rpx;
+}
+.login_inputClass {
+    color: #4A4A4A;
+    position: relative;
+    top: 460rpx;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 60rpx;
+}
+.login_line {
+    background-color: #4A4A4A;
+    position: relative;
+    top: 465rpx;
+    margin-left: 10%;
+    width: 80%;
+    height: 2rpx;
+    opacity: 0.5;
+}
+.login_regist_container {
+    display: flex;
+    position: relative;
+    top: 550rpx;
+    margin-left: 75rpx;
+    width: 600rpx;
+    justify-content: flex-end;
+    &-registBtn {
+        color: #4A4A4A;
+        font-size: 30rpx;
+        margin-right: 30rpx;
+    }
+}
